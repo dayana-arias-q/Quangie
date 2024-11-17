@@ -1,0 +1,160 @@
+/* Cambiar el fondo del header */
+header[data-bs-theme="dark"] {
+    background-color: #c0969f !important; /* Color sólido */
+    background-image: url('./assets/background.jpg') !important; /* Imagen de fondo */
+    background-size: cover !important;
+    background-position: center !important;
+    color: white !important;
+  }
+  
+  /* Cambiar el fondo de la sección colapsable */
+  header .collapse.text-bg-dark {
+    background-color: #761137 !important; /* Color de fondo */
+    color: white !important; /* Texto blanco */
+  }
+  
+  /* Cambiar el fondo del navbar */
+  header .navbar.navbar-dark.bg-dark {
+    background-color: #c0969f !important; /* Nuevo color */
+  }
+
+  .album.bg-body-tertiary {
+    background-color: #ffffff !important; /* Cambia este color por el que desees */
+  }
+
+  .album.bg-body-tertiary2 {
+    background-color: #f5edef !important; /* Cambia este color por el que desees */
+  }
+
+  .titulo-estilizado {
+    font-style: italic; /* Texto en cursiva */
+    color: #761137; /* Cambia este color según prefieras */
+    border-bottom: 0.5px solid #761137; /* Línea debajo del texto */
+    padding-bottom: 5px; /* Espacio entre el texto y la línea */
+    
+  }
+
+  .btn-primary {
+    background-color: #680b2e; /* Rojo tomate */
+    border-color: #761137;
+    color: white; /* Texto blanco */
+  }
+  
+  .btn-primary:hover {
+    background-color: #9c0b43; /* Más oscuro al pasar el mouse */
+    border-color: #761137;
+  }
+  
+  .btn-secondary {
+    background-color: #c47c8b ; /* Azul acero */
+    border-color: #c0969f ;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #a85668 ; /* Más oscuro al pasar el mouse */
+    border-color: #c0969f ;
+  }
+
+  /* Fondo personalizado y tipografía */
+.custom-footer {
+  background-color: #761137; /* Azul oscuro */
+  color: #ecf0f1; /* Blanco suave */
+  font-size: 12px; /* Tamaño de letra más pequeño */
+  padding: 20px 0;
+}
+
+/* Estilo para los textos */
+.footer-text {
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para los enlaces */
+.footer-link {
+  color: #fce9ed; /* Naranja */
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  color: #c0969f; /* Naranja más oscuro */
+}
+
+/* Estilo para el botón "Volver al inicio" */
+.footer-back-to-top {
+  display: inline-block;
+  margin-top: 10px;
+  font-style: italic; /* Texto en cursiva */
+  text-decoration: underline; /* Subrayado */
+  color: #c0969f; /* Azul brillante */
+}
+
+.footer-back-to-top:hover {
+  color: #c0969f; /* Azul más oscuro al pasar el ratón */
+}
+
+/* Estilos generales */
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Hace que los elementos sean responsivos */
+  gap: 16px; /* Espaciado entre elementos */
+  margin: 0 auto;
+  padding: 16px 0; /* Padding superior e inferior */
+  max-width: 95%; /* Limita el ancho total */
+  box-sizing: border-box;
+}
+
+/* Imagen con botón */
+.image-container {
+  position: relative; /* Para posicionar elementos hijos como el botón */
+  flex: 1; /* Ocupa la mitad del espacio disponible */
+  max-width: 50%; /* Asegura que la imagen ocupe el 50% */
+}
+
+.responsive-image {
+  width: 100%;
+  height: 400px; /* Igual tamaño que el iframe */
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Botón dentro de la imagen */
+.overlay-button {
+  position: absolute;
+  bottom: 16px; /* Posición inferior */
+  right: 16px; /* Posición derecha */
+  z-index: 1; /* Asegura que el botón esté sobre la imagen */
+}
+
+/* Estilos personalizados del botón */
+.btn-custom {
+  color: #ffffff; /* Color de la letra */
+  background-color: #761137; /* Color del botón */
+  border-color: #761137; /* Borde del botón */
+  text-transform: uppercase; /* Opcional: Texto en mayúsculas */
+}
+
+.btn-custom:hover {
+  color: #761137;
+  background-color: #b34871; /* Color más oscuro al pasar el mouse */
+  border-color: #761137; /* Borde más oscuro */
+}
+
+/* Embed de Instagram */
+.instagram-embed {
+  flex: 1; /* Ocupa la mitad del espacio disponible */
+  max-width: 50%; /* Asegura que el iframe ocupe el 50% */
+  height: 400px;
+}
+
+.responsive-iframe {
+  width: 100%;
+  height: 400px; /* Igual tamaño que la imagen */
+  border: none; /* Sin bordes */
+  border-radius: 8px; /* Bordes redondeados */
+  object-fit: cover; /* Asegura un buen ajuste del contenido */
+}
+
+
+ 

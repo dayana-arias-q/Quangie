@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-bs-theme="auto">
+<html lang="es" data-bs-theme="auto">
   <head><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
+    <link rel="shortcut icon" href="./assets/Logo.png">
     <title>Quangie</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
@@ -18,6 +19,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="style.css">
 
     <style>
       .bd-placeholder-img {
@@ -117,56 +119,21 @@
       </symbol>
     </svg>
 
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-              id="bd-theme"
-              type="button"
-              aria-expanded="false"
-              data-bs-toggle="dropdown"
-              aria-label="Toggle theme (auto)">
-        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
-        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-      </button>
-      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-            Light
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
-            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-            Dark
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
-            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
-            Auto
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-      </ul>
-    </div>
-
     
 <header data-bs-theme="dark">
   <div class="collapse text-bg-dark" id="navbarHeader">
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
-          <h4>About</h4>
-          <p class="text-body-secondary">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          <h4>Nosotras</h4>
+          <p class="text-body-secondary">Somos un taller creativo donde diseñamos productos únicos y hechos con mucho cariño.</p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
-          <h4>Contact</h4>
+          <h4>Contactos</h4>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
+            <li><a href="https://www.instagram.com/quangie.hogar/" class="text-white">Instagram</a></li>
+            <li><a href="https://wa.me/573233879983" class="text-white">Whatsapp</a></li>
+            <li><a href="https://mail.google.com/" class="text-white">quangie.hogar@gmail.com</a></li>
           </ul>
         </div>
       </div>
@@ -175,8 +142,7 @@
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">
       <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-        <strong>Album</strong>
+        <img src="./assets/Logotipo.png" alt="" style="height: auto; width: 80px;">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -187,110 +153,75 @@
 
 <main>
 
-  <section class="py-5 text-center container">
+  <section class="py-5 text-center container" style="padding-bottom: 16px;">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Album example</h1>
-        <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <h1 class="fw-light">Bienvenid@s</h1>
+        <p class="lead text-body-secondary"> ¡Bienvenidos! Estamos trabajando en nuestra página y todavía no está completamente terminada, pero ya puedes echar un vistazo a algunas de las cositas que tenemos disponibles para ti. El próximo año traeremos más productos para que te antojes, y tomaremos tus encargos con más tiempo. ¡Esperamos que te gusten nuestras creaciones!</p>
         <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          <a href="#mititulo" class="btn btn-primary my-2">Bazar Navideño</a>
+          <a href="#detallitos" class="btn btn-secondary my-2">Detallitos</a>
         </p>
       </div>
     </div>
   </section>
+  
 
-  <div class="album py-5 bg-body-tertiary">
+
+  <div class="album py-5 bg-body-tertiary2">
     <div class="container">
-
+      <h1 id="mititulo" class="titulo-estilizado">Bazar Navideño </h1>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="./assets/IMG_5729.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3>Noel Colgante</h3>
+              <p class="card-text">$45.000 <br> <small class="text-body-secondary">Para decorar ventanles, espejos, sillas, lo que tu quieras. <br> Medidas: 65x30cm</small></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Noel%20Colgante" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <small class="text-body-secondary">Disponible</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="./assets/IMG_5654.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3>Pendón Bordado</h3>
+              <p class="card-text">$75.000 <br> <small class="text-body-secondary">Para decorar tu espacio. <br> Medidas: 90x46cm</small></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Pendon%20Bordado" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <small class="text-body-secondary">Disponible</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="./assets/IMG_5712.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3>Individuales x4</h3>
+              <p class="card-text">$45.000 <br> <small class="text-body-secondary">Para decorar un comedor de 4 puestos. <br> Medidas: 35x35cm</small></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20los%20Individuales%20x4" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
                 </div>
-                <small class="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-body-secondary">9 mins</small>
+                <small class="text-body-secondary">Disponible</small>
               </div>
             </div>
           </div>
@@ -298,46 +229,200 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="./assets/IMG-20211106-WA0018.jpg" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3>Centro de mesa Flor</h3>
+              <p class="card-text">$25.000 <br> <small class="text-body-secondary">Para decorar las mesas de tu hogar. <br> Medidas: 35x35cm</small></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Centro%20Mesa%20Flor" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <small class="text-body-secondary">Disponible</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="./assets/IMG_5254.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3>Individuales x6</h3>
+              <p class="card-text">$55.000 <br> <small class="text-body-secondary">Para el comedor un 6 puestos.<br> Medidas: 25x40cm</small></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20los%20Individuales%20x6" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <small class="text-body-secondary">Disponible</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <img src="./assets/IMG_5883.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3>Adorno Puerta Nieve</h3>
+              <p class="card-text">$55.000 <br> <small class="text-body-secondary">Para decorar la entrada del hogar. <br> </small></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Adorno%20Puerta" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                <small class="text-body-secondary">Agotado</small>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/IMG_5687.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Toallero Reno</h3>
+              <p class="card-text">$25.000 <br> <small class="text-body-secondary">Para la cocina o el baño.<br> Medidas: 25x40cm</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Toallero%20Reno" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Disponible</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/IMG_5294.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Toallero Pingüino</h3>
+              <p class="card-text">$25.000 <br> <small class="text-body-secondary">Para la cocina o el baño. <br> Medidas: 25x40cm</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Toallero%20Pinguino" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Agotado</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/IMG-20211106-WA0019.jpg" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Centro de mesa Regalo</h3>
+              <p class="card-text">$25.000 <br> <small class="text-body-secondary">Para decorar las mesas de tu hogar. <br> Medidas: 35x35cm</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Noel%20Colgante" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Disponible</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/IMG_5258.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Pie de árbol</h3>
+              <p class="card-text">$55.000 <br> <small class="text-body-secondary">Para decorar tu árbol. <br> Medidas: 1.50m</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Pie%20de%20arbol" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Disponible</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/IMG_1446.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Muñeco de Nieve</h3>
+              <p class="card-text">$65.000 <br> <small class="text-body-secondary">Para decorar tu espacio. <br> </small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Muñeco%20de%20Nieve" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Agotado</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/IMG-20211106-WA0005.jpg" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Cojín de Nieve</h3>
+              <p class="card-text">$45.000 <br> <small class="text-body-secondary">Para decorar un mueble o alcoba.<br> </small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Cojín%20de%20Nieve" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Disponible</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+        <div class="col-12">
+          
+        </div>
+      
+      </div>
+      <div class="col-12" style="padding-top: 16px;">
+        <div class="card shadow-sm">
+          <img src="./assets/IMG_1493.png" 
+               alt="Centro de mesa Regalo" 
+               class="bd-placeholder-img card-img-top" 
+               width="100%" 
+               height="400" 
+               style="object-fit: cover;">
+          <div class="card-body">
+            <h3>Cenefa</h3>
+            <p class="card-text">
+              $90.000 <br>
+              <small class="text-body-secondary">
+                Para decorar tu ventanal. <br>
+                Medidas: Amplia hasta 2.00m
+              </small>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20la%20Cenefa" 
+                   target="_blank">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>
+              </div>
+              <small class="text-body-secondary">Disponible</small>
             </div>
           </div>
         </div>
@@ -345,17 +430,132 @@
     </div>
   </div>
 
+
+  <div class="content-wrapper">
+    <!-- Imagen con botón -->
+    <div class="image-container">
+      <img src="./assets/1B374426-BB2E-49DC-B95C-128D2B5EF09B.jpg" alt="Imagen Ejemplo" class="responsive-image">
+      <div class="btn-group overlay-button">
+        <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20los%20Adornos%20del%20árbol" target="_blank">
+          <button type="button" class="btn btn-sm btn-custom">Enviar Mensaje</button>
+        </a>
+      </div>
+    </div>
+  
+    <!-- Embed de Instagram -->
+    <div class="instagram-embed">
+      <iframe 
+        src="https://www.instagram.com/quangie.hogar/embed" 
+        class="responsive-iframe">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <h1 id="detallitos" class="titulo-estilizado">Detallitos</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/cocina2.png" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Toallero</h3>
+              <p class="card-text">$25.000 <br> <small class="text-body-secondary">Para la cocina o el baño. <br> Medidas: 25x40cm</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Toallero" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Disponible</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/cojin3.jpg" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Cojines en Patchwork #1</h3>
+              <p class="card-text">$45.000 <br> <small class="text-body-secondary">Para los muebles o alcoba.<br> Medidas: 50x50cm</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20los%20Cojines%20#1" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Disponible</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/cojin2.jpg" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Cojines en Patchwork #2</h3>
+              <p class="card-text">$45.000 <br> <small class="text-body-secondary">Para los muebles o alcoba. <br> Medidas: 50x50cm</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20los%20Cojines%20#2" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Disponible</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/IMG_9604.PNG" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Trup</h3>
+              <p class="card-text">$45.000 <br> <small class="text-body-secondary">Para la cama, inlcuye los 2 cojines y el pie de cama. <br> </small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Trup" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Disponible</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/cojin1.jpg" alt="Noel"class="bd-placeholder-img card-img-top" width="100%" height="400" style="object-fit: cover;"<rect width="100%" height="100%" fill="#55595c"/></img>
+            <div class="card-body">
+              <h3>Cojín</h3>
+              <p class="card-text">$45.000 <br> <small class="text-body-secondary">Para un mueble. <br> Medidas: 45x35cm</small></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://wa.me/573233879983?text=Buenos%20d%C3%ADas,%20estoy%20interesada%20en%20el%20Cojín" 
+                 target="_blank">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Enviar Mensaje</button>
+                </a>  
+                </div>
+                <small class="text-body-secondary">Disponible</small>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+
 </main>
 
-<footer class="text-body-secondary py-5">
-  <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+<footer class="custom-footer">
+  <div class="container text-center">
+    
+    <p class="footer-text">Creaciones de Ángela. <br>&copy;2024 Colombia, Medellín.<span id="currentYear"> <br></span>  </p>
+    <p class="footer-text">Página creada con ❤️ por <a href="https://www.instagram.com/by_daya__" target="_blank" class="footer-link">Daya</a>.</p>
+    <a href="#" class="footer-back-to-top">Volver al inicio</a>
   </div>
 </footer>
 
-    </body>
-</html>
