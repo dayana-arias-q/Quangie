@@ -26,6 +26,8 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
               <li class="nav-item"><a class="nav-link active" aria-current="page" href="tienda.html">Tienda</a></li>
+              <li class="nav-item"><a class="nav-link" href="tienda.html#ensamble">Ensamble</a></li>
+              <li class="nav-item"><a class="nav-link" href="galeria-mariposas.html">Galería</a></li>
               <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos Terminados</a></li>
             </ul>
           </div>
@@ -191,19 +193,18 @@
           <h2 class="h4 mb-1">Imágenes</h2>
           <p class="text-muted">Las imágenes mostradas son opciones para tu elección. Ten presente el número de referencia al momento de realizar tu pedido. Si tienes alguna imagen diferente en mente, no dudes en contactarnos.</p>
         </div>
-        <div class="row g-3 justify-content-center">
+        <div class="row g-0 justify-content-center">
           <div class="col-12 col-md-6">
           <div class="card gallery-card"><img src="./assets/PlantillasFlores.jpg" alt="Imagen 1" class="w-100 h-auto"></div>
           </div>
           <div class="col-12 col-md-6">
-          <div class="card gallery-card"><img src="./assets/PlantillasFlores1.jpg" alt="Imagen 2" class="w-100 h-auto"></div>
-          </div>
-          <div class="col-12 col-md-6">
-            <span id="plantillas-mariposas" style="display:block;"></span>
-          <div class="card gallery-card"><img src="./assets/PlantillasMariposas1.jpg" alt="Imagen 3" class="w-100 h-auto"></div>
-          </div>
-          <div class="col-12 col-md-6">
-          <div class="card gallery-card"><img src="./assets/PlantillasMariposas2.jpg" alt="Imagen 4" class="w-100 h-auto"></div>
+            <div class="card gallery-card featured-gallery-card">
+              <img src="./assets/PlantillasMariposas.jpg" alt="Imagen 4" class="w-100 h-auto">
+              <div class="gallery-overlay text-white">
+                <p class="small mb-2 fw-semibold" style="letter-spacing:0.08em; text-transform:uppercase;">Explora la galería</p>
+                <a href="galeria-mariposas.html" class="btn btn-light btn-sm rounded-pill px-3">Ver más</a>
+              </div>
+            </div>
           </div>
         </div>
         </section>
@@ -213,11 +214,8 @@
           <h2 class="h4 mb-1">Ensamble</h2>
           <p class="text-muted mb-0">Convierte tus ideas en proyectos armados y listos para usar.</p>
           </div>
-          <a href="#imagenes" class="text-decoration-none">Ir a Imágenes</a>
         </div>
         <div class="container mt-4 mb-4 text-center">
-      <a href="#imagenes" class="text-decoration-none">← Volver a Imágenes</a>
-      <a href="#plantillas" class="text-decoration-none">← Volver a Plantillas</a> </div>
         <div class="row g-4">
           <div class="col-md-4">
           <div class="card product-card">
@@ -250,6 +248,8 @@
           </div>
           </div>
         </div>
+        <p></p>
+        <div><a href="#plantillas" class="text-decoration-none">← Volver a Plantillas</a> </div>
         </section>
 
       </div>
