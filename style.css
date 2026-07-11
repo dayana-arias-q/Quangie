@@ -163,6 +163,46 @@ header[data-bs-theme="dark"] {
   --quangie-rose: #c47c8b;
   --quangie-dark: #3d1f2b;
 }
+/* Estilos para el índice de la galería (vinotinto) */
+.gallery-index {
+  background: var(--quangie-primary);
+  border: 1px solid rgba(245,237,239,0.06);
+  padding: 0.45rem 0.6rem;
+  border-radius: 999px;
+  display: inline-block;
+  box-shadow: 0 6px 18px rgba(118,17,55,0.08);
+}
+.gallery-index .list-inline {
+  margin: 0;
+  padding: 0;
+}
+.gallery-index .list-inline-item {
+  margin-right: 0.5rem;
+}
+.gallery-index a {
+  color: var(--quangie-soft);
+  text-decoration: none;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  display: inline-block;
+  background: transparent;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.08s ease;
+  opacity: 0.95;
+}
+.gallery-index a:hover, .gallery-index a:focus {
+  background: var(--quangie-secondary);
+  color: var(--quangie-dark);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.gallery-index a.active {
+  background: var(--quangie-soft);
+  color: var(--quangie-primary);
+  font-weight: 700;
+}
+@media (max-width: 576px) {
+  .gallery-index .list-inline-item { display: block; margin: 0.25rem 0; }
+}
 .hero-section {
   position: relative;
   background-image: url('./assets/IMG_9168.PNG');
