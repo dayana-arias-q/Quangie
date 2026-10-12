@@ -11,8 +11,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <header>
+  <body class="home-page">
+    <header class="header--hidden" aria-hidden="true" inert>
       <nav class="navbar navbar-expand-lg border-bottom shadow-sm py-3">
         <div class="container">
           <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -36,18 +36,39 @@
     </header>
 
     <main>
-      <section class="hero-section">
-        <div class="container hero-content">
-          <div class="row align-items-center">
-            <div class="col-lg-7">
-                <p class="mb-3 text-quangie-primary small">Hecho a mano con cariño</p>
-              <h1>Bienvenidos a Quangie,<br> descubre la magia de crear para ti</h1>
-                <p class="lead"><strong>Bordados y proyectos personalizados pensados para que tu espacio refleje tu mejor estilo.</strong></p>
-              <div class="hero-actions d-flex flex-column flex-sm-row">
-                <a href="tienda.html#plantillas" class="btn btn-hero me-sm-3 mb-3 mb-sm-0">Ver Plantillas</a>
-                <a href="proyectos.html#hogar" class="btn btn-outline-light">Ver Proyectos</a>
-              </div>
+      <section class="home-hero" aria-label="Bienvenidos a Quangie">
+        <div class="home-hero-content">
+          <img class="home-hero-logo" src="./assets/Logotipo.png" alt="Quangie">
+          <p class="home-hero-location">
+            <svg class="home-location-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"></path>
+              <circle cx="12" cy="10" r="2.5"></circle>
+            </svg>
+            Medellín, Colombia
+          </p>
+          <div class="home-link-group">
+            <h1 class="home-link-title">Para las bordadoras</h1>
+            <div class="home-link-grid">
+              <a href="tienda.html#plantillas" class="home-link-button">Plantillas para bordar</a>
+              <a href="galeria.html" class="home-link-button">Imágenes para bordar</a>
+              <a href="tienda.html#ensamble" class="home-link-button">Ensamble</a>
             </div>
+          </div>
+
+          <div class="home-link-group">
+            <h2 class="home-link-title">Proyectos terminados</h2>
+            <div class="home-link-grid">
+              <a href="proyectos.html#hogar" class="home-link-button">Hogar</a>
+              <a href="proyectos.html#infantil" class="home-link-button">Infantil</a>
+              <a href="proyectos.html#navidad" class="home-link-button">Catálogo Navidad</a>
+            </div>
+          </div>
+
+          <div class="home-whatsapp">
+            <a href="https://wa.me/573242366416?text=Hola%20Quangie%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener noreferrer" class="home-whatsapp-link">
+              <img src="./assets/whatsapp-icon.webp" alt="">
+              Escríbenos
+            </a>
           </div>
         </div>
       </section>
@@ -241,6 +262,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
+      const siteHeader = document.querySelector('.home-page header');
+      let headerUpdatePending = false;
+
+      function updateHeaderVisibility() {
+        const isScrolled = window.scrollY > 40;
+        siteHeader.classList.toggle('header--hidden', !isScrolled);
+        siteHeader.classList.toggle('header--visible', isScrolled);
+        siteHeader.toggleAttribute('inert', !isScrolled);
+        siteHeader.setAttribute('aria-hidden', String(!isScrolled));
+        headerUpdatePending = false;
+      }
+
+      document.addEventListener('scroll', function () {
+        if (headerUpdatePending) return;
+        headerUpdatePending = true;
+        window.requestAnimationFrame(updateHeaderVisibility);
+      }, { passive: true });
+
       document.addEventListener('scroll', function () {
         const divider = document.getElementById('scrollDivider');
         if (!divider) return;
