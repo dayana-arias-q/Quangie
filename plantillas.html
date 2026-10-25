@@ -19,9 +19,22 @@
           <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="plantillas.html">Plantillas</a></li>
-              <li class="nav-item"><a class="nav-link" href="ensamble.html">Ensamble</a></li>
-              <li class="nav-item"><a class="nav-link" href="galeria.html">Imágenes para bordar</a></li>
+              <li class="nav-item dropdown">
+                <button type="button" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" aria-expanded="false">Para bordadoras</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item active" aria-current="page" href="plantillas.html">Plantillas</a></li>
+                  <li><a class="dropdown-item" href="ensamble.html">Ensamble</a></li>
+                  <li><a class="dropdown-item" href="galeria.html">Galería</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <button type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Proyectos Terminados</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="catalogo-infantil.html">Catálogo Infantil</a></li>
+                  <li><a class="dropdown-item" href="catalogo-hogar.html">Catálogo Hogar</a></li>
+                  <li><a class="dropdown-item" href="catalogo-navideno.html">Catálogo Navideño</a></li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -29,93 +42,193 @@
     </header>
     <main class="py-5 bg-soft">
       <div class="container">
-        <div class="text-center mb-5">
-          <h1 class="section-title" style="color:var(--quangie-primary);">Plantillas para bordar</h1>
-          <p class="text-muted">Plantillas acolchadas con técnica de quilt, listas para bordar y personalizar.</p>
-          <p class="text-muted">Si vas a pedir más de 12 plantillas, contáctanos para cotizar descuentos especiales.</p>
-          <a href="galeria.html" class="btn btn-secondary">Explorar imágenes para bordar</a>
+        
+         <section id="plantillas" class="mb-5">
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-column flex-md-row">
+          <div>
+          <h2 class="h4 mb-1">Plantillas</h2>
+          <p class="text-muted mb-0">Materiales listos para bordar y personalizar.</p>
+          <p class="text-muted mb-0">Si vas a pedir más de 12 plantillas, cotiza con nosotras para obtener descuentos especiales</p>
+          <p> </p>
+          <a href="https://wa.me/573242366416?text=Quiero%20cotizar%20x%20cantidad%20de%20plantillas" target="_blank" class="btn btn-primary">Contáctanos</a>
+          </div>
+          <a href="#imagenes" class="text-decoration-none">Ir a Imágenes</a>
         </div>
-        <div class="row g-4">
-          <div class="col-md-6">
-            <article class="card product-card h-100">
-              <video class="card-img-top" autoplay muted loop playsinline style="height:300px;object-fit:contain;background:#fff;">
-                <source src="./assets/KitMadres.mp4" type="video/mp4">
-                Tu navegador no soporta video HTML5.
-              </video>
-              <div class="card-body">
-                <h2 class="h5">Plantilla Especial</h2>
-                <p class="text-muted small">Plantilla acolchada con guata, imagen, mini plantilla para pruebas de color, hilo degradado, aguja y bolsito de tela.</p>
-                <p class="fw-semibold">$35.000</p>
-                <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20el%20kit%20Especial" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Pedir ahora</a>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6">
-            <article class="card product-card h-100">
-              <video class="card-img-top" autoplay muted loop playsinline style="height:300px;object-fit:contain;background:#fff;">
-                <source src="./assets/plantillabásica.mp4" type="video/mp4">
-                Tu navegador no soporta video HTML5.
-              </video>
-              <div class="card-body">
-                <h2 class="h5">Plantilla Básica</h2>
-                <p class="text-muted small">Plantilla acolchada con técnica de quilt y guata incluida. Incluye una imagen personalizada y una mini plantilla para pruebas de color.</p>
-                <p class="fw-semibold">$28.000</p>
-                <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20la%20Plantilla%20Basica" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Pedir ahora</a>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6">
-            <article class="card product-card h-100">
-              <video class="card-img-top" autoplay muted loop playsinline style="height:300px;object-fit:contain;background:#fff;">
-                <source src="./assets/Kit.mp4" type="video/mp4">
-                Tu navegador no soporta video HTML5.
-              </video>
-              <div class="card-body">
-                <h2 class="h5">Kit de Bordado</h2>
-                <p class="text-muted small">Incluye plantilla básica, tijera, enhebrador, agujas, tambora y totebag. No incluye hilos.</p>
-                <p class="fw-semibold">$75.000</p>
-                <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20el%20Kit%20Bordado" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Pedir ahora</a>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6">
-            <article class="card product-card h-100">
-              <img src="./assets/imgPlantillas.jpg" alt="Plantilla para almohadón" class="card-img-top">
-              <div class="card-body">
-                <h2 class="h5">Plantilla Almohadón</h2>
-                <p class="text-muted small">Medidas: 50 × 70 cm.</p>
-                <p class="fw-semibold">$45.000</p>
-                <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20la%20Plantilla%20Almohadon" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Pedir ahora</a>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6">
-            <article class="card product-card h-100">
-              <img src="./assets/imgQuiltClaro.jpg" alt="Plantilla para camino de mesa" class="card-img-top">
-              <div class="card-body">
-                <h2 class="h5">Plantilla Camino de Mesa</h2>
-                <p class="text-muted small">Medidas: 45 × 100 cm.</p>
-                <p class="fw-semibold">$65.000</p>
-                <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20la%20Plantilla%20Centro%20de%20Mesa" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Pedir ahora</a>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6">
-            <article class="card product-card h-100">
-              <img src="./assets/imgQuiltOscuro.jpg" alt="Plantilla para pie de cama" class="card-img-top">
-              <div class="card-body">
-                <h2 class="h5">Plantilla Pie de Cama</h2>
-                <p class="text-muted small">Medidas: 50 × 150 cm.</p>
-                <p class="fw-semibold">$85.000</p>
-                <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20la%20Plantilla%20Pie%20de%20Cama" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Pedir ahora</a>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div class="text-center mt-5"><a href="index.html#hero" class="btn btn-primary">Volver a las opciones</a></div>
+      
+        <p></p>
+        <!-- CARD DESTACADA - va ARRIBA del row g-4 -->
+<div class="row mb-4">
+  <div class="col-12">
+    <div class="card product-card position-relative overflow-hidden">
+
+      <!-- Fondo con video blur -->
+      <div class="position-absolute top-0 start-0 w-100 h-100" style="pointer-events:none;">
+        <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover; filter:blur(18px) brightness(0.7); transform:scale(1.1);">
+          <source src="./assets/KitMadres.mp4" type="video/mp4">
+        </video>
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background:rgba(255,255,255,0.04);"></div>
       </div>
+
+      <!-- Contenido: video izquierda + info derecha en desktop -->
+      <div class="position-relative d-flex flex-column flex-md-row align-items-stretch" style="z-index:1;">
+
+        <!-- Video del producto -->
+        <div class="flex-shrink-0" style="width:100%; max-width:420px;">
+          <video width="100%" height="100%" autoplay muted loop playsinline
+            style="max-height:400px; object-fit:cover; display:block;">
+            <source src="./assets/KitMadres.mp4" type="video/mp4">
+            Tu navegador no soporta video HTML5.
+          </video>
+        </div>
+
+        <!-- Info + botón -->
+        <div class="card-body d-flex flex-column justify-content-center" style="background-color: white;">
+          <div>
+            <span class="badge bg-primary mb-2" style="font-size:0.75rem; letter-spacing:0.05em;">⭐ Más popular </span>
+            <h5 class="mb-2">Plantilla Especial</h5>
+            <p class="text-muted small mb-3">
+              Plantilla  acolchada con técnica de quilt , lista para bordar con guata.
+              Incluye imagen, mini plantilla para pruebas de color, hilo color degradado, aguja y bolsito de tela para guardar tu proyecto. 
+            </p>
+            <p class="fw-semibold fs-5 mb-4" style="color:#212529;">$35.000</p>
+            <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20el%20kit%20Especial"
+              target="_blank"
+              class="btn btn-primary align-self-start">
+              Pedir ahora
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="row g-4 mb-4">
+          <div class="col-md-6">
+          <div class="card product-card position-relative overflow-hidden">
+          <div class="position-absolute top-0 start-0 w-100 h-100" style="pointer-events:none;">
+          <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover; filter:blur(18px) brightness(0.7); transform:scale(1.1);">
+          <source src="./assets/plantillabásica.mp4" type="video/mp4">
+          </video>
+          <div class="position-absolute top-0 start-0 w-100 h-100" style="background:rgba(255,255,255,0.04);"></div>
+          </div>
+          <div class="position-relative" style="z-index:1;">
+          <video width="100%" height="auto" autoplay muted loop playsinline class="card-img-top" style="max-height:400px; object-fit:contain;">
+          <source src="./assets/plantillabásica.mp4" type="video/mp4">
+          Tu navegador no soporta video HTML5.
+          </video>
+          <div class="card-body" style="background-color: white;">
+          <h5>Plantilla Básica</h5>
+          <p class="text-muted small">Plantilla acolchada con técnica de quilt, lista para bordar y con guata incluida.
+          Incluye una imagen personalizada a tu gusto y una mini plantilla para pruebas de color.</p>
+          <p class="text-muted">$28.000</p>
+          <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20la%20Plantilla%20Basica" target="_blank" class="btn btn-primary">Pedir ahora</a>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-6">
+          <div class="card product-card position-relative overflow-hidden">
+          <div class="position-absolute top-0 start-0 w-100 h-100" style="pointer-events:none;">
+          <video autoplay muted loop playsinline style="width:100%; height:100%; object-fit:cover; filter:blur(18px) brightness(0.7); transform:scale(1.1);">
+          <source src="./assets/Kit.mp4" type="video/mp4">
+          </video>
+          <div class="position-absolute top-0 start-0 w-100 h-100" style="background:rgba(255,255,255,0.04);"></div>
+          </div>
+          <div class="position-relative" style="z-index:1;">
+          <video width="100%" height="auto" autoplay muted loop playsinline class="card-img-top" style="max-height:400px; object-fit:contain;">
+          <source src="./assets/Kit.mp4" type="video/mp4">
+          Tu navegador no soporta video HTML5.
+          </video>
+          <div class="card-body" style="background-color: white;">
+          <h5>Kit de Bordado</h5>
+          <p class="text-muted small">Kit completo que incluye: plantilla básica, tijera, enhebrador, agujas, tambora y totebag. *No incluye hilos*</p>
+          <p class="text-muted">$75.000</p>
+          <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20el%20Kit%20Bordado" target="_blank" class="btn btn-primary">Pedir ahora</a>
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+          <div class="card product-card">
+            <img src="./assets/imgPlantillas.jpg" alt="Plantilla Floral" class="card-img-top">
+            <div class="card-body">
+            <h5>Plantilla Almohadón</h5>
+            <p class="text-muted small">50x70cm</p>
+            <p class="text-muted">$45.000</p>
+            <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20la%20Plantilla%20Almohadon" target="_blank" class="btn btn-primary">Pedir ahora</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="card product-card">
+            <img src="./assets/imgPlantillas.jpg" alt="Plantilla Geométrica" class="card-img-top">
+            <div class="card-body">
+            <h5>Plantilla Camino de Mesa</h5>
+            <p class="text-muted small">45x100cm</p>
+            <p class="text-muted">$65.000</p>
+            <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20la%20Plantilla%20Centro%20de%20Mesa" target="_blank" class="btn btn-primary">Pedir ahora</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="card product-card">
+            <img src="./assets/imgPlantillas.jpg" alt="Plantilla Especial" class="card-img-top">
+            <div class="card-body">
+            <h5>Plantilla Pie de Cama</h5>
+            <p class="text-muted small">50x150cm</p>
+            <p class="text-muted">$85.000</p>
+            <a href="https://wa.me/573242366416?text=Hola%20Quisiera%20pedir%20la%20Plantilla%20Pie%20de%20Cama" target="_blank" class="btn btn-primary">Pedir ahora</a>
+            </div>
+          </div>
+          </div>
+        </div>
+        </section>
+
+        <div class="text-center mt-5"><a href="index.html#hero" class="btn btn-primary">Volver a las opciones</a></div>
+      
+      
+      
+      </div>
+
+      
+
     </main>
-    <footer class="custom-footer"><div class="container text-center"><p class="footer-text">Quangie · Medellín, Colombia</p><a href="index.html#hero" class="footer-link">Volver al inicio</a></div></footer>
+    <footer class="custom-footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-4">
+            <p class="footer-brand mb-2">Quangie</p>
+            <p class="footer-text">Somos un taller creativo inspiradas por el bordado, quilt y el patchwork 🪡 🧵</p>
+          </div>
+          <div class="col-md-4">
+            <h6>Contacto</h6>
+            <p class="footer-text mb-1">WhatsApp: <a href="https://wa.me/573242366416" class="footer-link">+57 3242366416</a></p>
+            <p class="footer-text mb-0">Email: quangie.hogar@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <h6>Redes sociales</h6>
+            <ul class="list-unstyled footer-text footer-social">
+              <li><a href="https://www.instagram.com/quangie.hogar/" target="_blank"><img src="./assets/instagram.png" alt="Instagram" style="height: 20px; width: 20px; margin-right: 8px;">Instagram</a></li>
+              <li style="margin-top: 8px;"><a href="https://wa.me/573242366416" target="_blank"><img src="./assets/whatsapp-icon.webp.png" alt="WhatsApp" style="height: 20px; width: 20px; margin-right: 8px;">WhatsApp</a></li>
+              <li style="margin-top: 8px;"><a href="https://www.tiktok.com/@quangie.hogar" target="_blank"><img src="./assets/tiktok.png" alt="TikTok" style="height: 20px; width: 20px; margin-right: 8px;">TikTok</a></li>
+              <li style="margin-top: 8px;"><a href="https://co.pinterest.com/quangiehogar/" target="_blank"><img src="./assets/pinterest.jpg.png" alt="Pinterest" style="height: 20px; width: 20px; margin-right: 8px;">Pinterest</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4">
+        <div class="text-center footer-text">
+          <p class="mb-2">Creaciones de Ángela.</p>
+          <p class="mb-2">@2026 Medellín, Colombia.</p>
+          <p class="mb-0">Página creada con ❤️ por <a href="https://www.behance.net/daya_arias" target="_blank" class="footer-link">Daya</a></p>
+          <p class="mb-0"><a href="index.html" class="footer-link">Volver al inicio</a></p>
+        </div>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
