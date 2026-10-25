@@ -477,7 +477,7 @@ header[data-bs-theme="dark"] {
   object-fit: cover;
 }
 
-.product-card > img.card-img-top {
+.product-card > img.card-img-top[data-video] {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   cursor: pointer;
